@@ -144,11 +144,19 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>La Molinara</title>
+        <title>La Molisana</title>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
         <header>
-
+            <img class="logo" src="{{asset('img/marchio-sito-test.png')}}" alt="La Molisana">
+            <nav>
+                <ul class="nav-menu">
+                    <li> <a href="#">Home</a></li>
+                    <li><a href="#">Contatti</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
             @if(!empty($lunghe))
