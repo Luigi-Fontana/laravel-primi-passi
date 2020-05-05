@@ -3,8 +3,8 @@
     <nav>
         <ul class="nav-menu">
             <li> <a href="{{route('index')}}">Home</a></li>
-            <li><a href="#">Prodotti</a></li>
-            <li><a href="#">Link</a></li>
+            <li><a href="{{route('prodotti')}}">Prodotti</a></li>
+            <li><a href="#">News</a></li>
         </ul>
     </nav>
 </header>

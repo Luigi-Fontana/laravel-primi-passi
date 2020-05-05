@@ -35,6 +35,7 @@ header ul li a {
   font-weight: bold;
   font-size: 18px;
   padding: 10px;
+  transition-duration: 0.5s;
 }
 
 header ul li a:hover {
@@ -112,5 +113,40 @@ main .container .cards .card .card-link h3 {
 
 main .container .cards .card .card-link h3 a {
   color: #002d75;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .container {
+  flex-basis: calc(100% / 3 - 100px);
+  margin: 50px;
+}
+
+footer .container h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #707070;
+}
+
+footer .container ul {
+  list-style: none;
+}
+
+footer .container ul li {
+  color: #707070;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+footer .container ul li a {
+  color: #707070;
+}
+
+footer .left ul li {
+  font-size: 12px;
+  padding-bottom: 2px;
 }
 

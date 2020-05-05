@@ -13,6 +13,7 @@ header {
                 font-weight: bold;
                 font-size: 18px;
                 padding: 10px;
+                transition-duration: 0.5s;
                 &:hover {
                     background-color: $hover_color_one;
                 }
