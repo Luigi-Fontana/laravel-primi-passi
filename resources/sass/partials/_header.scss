@@ -19,5 +19,10 @@ header {
                 }
             }
         }
+        li.active {
+            a {
+                background-color: $hover_color_one;
+            }
+        }
     }
 }

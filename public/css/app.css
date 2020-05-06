@@ -42,8 +42,12 @@ header ul li a:hover {
   background-color: #cde2e7;
 }
 
+header ul li.active a {
+  background-color: #cde2e7;
+}
+
 main {
-  background-image: url("https://img.freepik.com/vettori-gratuito/fondo-astratto-di-vettore-senza-soluzione-di-continuita-con-luci-e-aloni-ripetibile-orizzontalmente-e-verticalmente_8130-361.jpg?size=626&ext=jpg");
+  background-image: url(/images/background.jpg?174b2c5eeefa64cbc914a9486c7c17be);
 }
 
 main .container {
