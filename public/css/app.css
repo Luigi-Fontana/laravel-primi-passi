@@ -13,6 +13,13 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 50px;
+  padding: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
 header {
   text-align: center;
 }
@@ -46,7 +53,7 @@ header ul li.active a {
   background-color: #cde2e7;
 }
 
-main {
+main .bg-products {
   background-image: url(/images/background.jpg?174b2c5eeefa64cbc914a9486c7c17be);
 }
 

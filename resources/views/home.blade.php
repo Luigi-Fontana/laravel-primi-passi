@@ -3,5 +3,5 @@
     Home
 @endsection
 @section('main')
-    Home page
+    <h1>Home Page</h1>
 @endsection

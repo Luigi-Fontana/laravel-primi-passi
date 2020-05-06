@@ -3,5 +3,5 @@
     News
 @endsection
 @section('main')
-    Sezione News
+    <h1>Sezione News</h1>
 @endsection
