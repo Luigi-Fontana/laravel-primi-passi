@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('titolo')
-    Prodotti
+    News
 @endsection
 @section('main')
-    @include('partials.main')
+    Sezione News
 @endsection
