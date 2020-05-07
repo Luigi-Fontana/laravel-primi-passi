@@ -27,3 +27,7 @@ Route::get('/news', function () {
 Route::get('admin/prodotti', function () {
     return view('admin.prodotti');
 })->name('admin.prodotti');
+
+Route::get('prodotti/{id}', function ($id) {
+    return view('prodotto', compact('id'));
+})->name('prodotti.show');

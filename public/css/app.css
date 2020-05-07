@@ -14,6 +14,7 @@ a {
 }
 
 h1 {
+  color: #002d75;
   font-size: 50px;
   padding: 50px;
   text-align: center;
@@ -55,6 +56,10 @@ header ul li.active a {
 
 main .bg-products {
   background-image: url(/images/background.jpg?174b2c5eeefa64cbc914a9486c7c17be);
+}
+
+main .bg-product {
+  background-color: #C0DFE8;
 }
 
 main .container {
@@ -105,7 +110,7 @@ main .container .cards .card:hover img {
 main .container .cards .card img {
   display: block;
   width: 100%;
-  transition-duration: 3s;
+  transition-duration: 2s;
 }
 
 main .container .cards .card .card-link {
@@ -114,7 +119,7 @@ main .container .cards .card .card-link {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: 3s linear all;
+  transition: 2s linear all;
   text-align: center;
 }
 
@@ -126,9 +131,41 @@ main .container .cards .card .card-link h3 a {
   color: #002d75;
 }
 
+main .container .cards .card .card-link svg {
+  fill: #002d75;
+}
+
+main .container .product {
+  text-align: center;
+}
+
+main .container .product img {
+  width: 70%;
+  margin: 50px;
+}
+
+main .container .product h3 {
+  color: #002d75;
+  font-weight: normal;
+  padding: 0 30px 30px;
+}
+
+main .container .product h4 {
+  padding-bottom: 30px;
+}
+
+main .container .product h4 a {
+  color: #002d75;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
+  background-image: url(/images/footer-background.jpg?e9536648042f65c22b810770b2a6ca02);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 footer .container {

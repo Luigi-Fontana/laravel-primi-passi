@@ -3,5 +3,9 @@
     Home
 @endsection
 @section('main')
-    <h1>Home Page</h1>
+    <main>
+        <div class="bg-products">
+            <h1>Home Page</h1>
+        </div>
+    </main>
 @endsection
