@@ -137,6 +137,7 @@ main .container .cards .card .card-link svg {
 
 main .container .product {
   text-align: center;
+  position: relative;
 }
 
 main .container .product img {
@@ -158,6 +159,32 @@ main .container .product h4 a {
   color: #002d75;
   font-size: 20px;
   text-decoration: underline;
+}
+
+main .container .product .left,
+main .container .product .right {
+  position: absolute;
+  top: 50%;
+}
+
+main .container .product .left a,
+main .container .product .right a {
+  font-size: 80px;
+  color: #002d75;
+  opacity: 0.3;
+}
+
+main .container .product .left a:hover,
+main .container .product .right a:hover {
+  opacity: 0.8;
+}
+
+main .container .product .left {
+  left: 10px;
+}
+
+main .container .product .right {
+  right: 10px;
 }
 
 footer {

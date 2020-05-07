@@ -64,6 +64,7 @@ main {
         }
         .product {
             text-align: center;
+            position: relative;
             img {
                 width: 70%;
                 margin: 50px;
@@ -80,6 +81,24 @@ main {
                     font-size: 20px;
                     text-decoration: underline;
                 }
+            }
+            .left, .right {
+                position: absolute;
+                top: 50%;
+                a {
+                    font-size: 80px;
+                    color: $font_color_two;
+                    opacity: 0.3;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+            .left {
+                left: 10px;
+            }
+            .right {
+                right: 10px;
             }
         }
     }
