@@ -5,8 +5,8 @@
             <li class="{{(url()->current() == route('home')) ? 'active' : ''}}">
                 <a href="{{route('home')}}">Home</a>
             </li>
-            <li class="{{(url()->current() == route('prodotti')) ? 'active' : ''}}">
-                <a href="{{route('prodotti')}}">Prodotti</a>
+            <li class="{{(url()->current() == route('products')) ? 'active' : ''}}">
+                <a href="{{route('products')}}">Prodotti</a>
             </li>
             <li class="{{(url()->current() == route('news')) ? 'active' : ''}}">
                 <a href="{{route('news')}}">News</a>
