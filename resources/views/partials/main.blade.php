@@ -1,18 +1,16 @@
 @php
-    $prodotti = config('prodotti');
-
     $lunghe = [];
     $corte = [];
     $cortissime = [];
 
-    foreach ($prodotti as $key => $prodotto) {
-        if ($prodotto['tipo'] == 'lunga') {
+    foreach ($products as $key => $product) {
+        if ($product->type_id == 1) {
             $lunghe[$key] = $prodotto;
         }
-        elseif ($prodotto['tipo'] == 'corta') {
+        elseif ($product->type_id == 2) {
             $corte[$key] = $prodotto;
         }
-        elseif ($prodotto['tipo'] == 'cortissima') {
+        elseif ($product->type_id == 3) {
             $cortissime[$key] = $prodotto;
         }
     }
